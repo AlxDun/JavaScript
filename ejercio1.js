@@ -1,4 +1,8 @@
-let name = prompt("Ingrese su nombre")
+while(true){
+    let name = prompt("Ingrese su nombre")
+    if (name==""){alert("El espacio no puede estar vacio.")}
+    else{break}}
+
 while(true){
     let age = prompt("Ingrese su edad")
     if (age>=18){alert(`Estimado ${name}, usted es mayor de edad.`); break}
