@@ -8,4 +8,4 @@ El avance se va documentando por semanas, cada semana tiene su propia carpeta y 
 
 ### Como ejecutar el codigo?
 
-El codigo se puede ejecutar en FrameWorks que seancompatibles con JavaScript o directamente desde la consola de ciertos navegadores.
+El codigo se puede ejecutar en FrameWorks que sean compatibles con JavaScript y los prompt o directamente desde la consola de ciertos navegadores.
