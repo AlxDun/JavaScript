@@ -1,7 +1,3 @@
-// Declaramos variables globales
-let nombre=""
-let edad
-
 // Mensaje de bienvenida.
 console.log("Bienvenido!")
 
