@@ -6,7 +6,7 @@ const setProducts = new Set(Object.values(products).map(product => product.name)
 
 const mapProducts = new Map([["Electronic", "SmartPhone"],["Food", "Egg"],["Vehicle", ["Car", "Automobile"]]])
 
-console.log("Impresion del diccionario de los productos:")
+console.log("Impresion del arreglo de los productos:")
 for (const id in products){console.log(`Product ID: ${id} | Name: ${products[id].name} | Price: ${products[id].price}`)}
 
 console.log("Impresion del Set con los nombres de los productos:")
