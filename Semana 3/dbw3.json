@@ -1,0 +1,44 @@
+{
+  "productos": [
+    {
+      "id": "2",
+      "nombre": "guineo",
+      "precio": 500
+    },
+    {
+      "id": "3",
+      "nombre": "galleta",
+      "precio": 1200
+    },
+    {
+      "id": 4,
+      "nombre": "Tilin",
+      "precio": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Tilin",
+      "precio": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Tilin",
+      "precio": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Tilin",
+      "precio": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Tilin",
+      "precio": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Tilin",
+      "precio": 1
+    }
+  ]
+}

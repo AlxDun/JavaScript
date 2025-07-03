@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="#">
+        <label for="nombre">Tarea</label>
+        <input type="text" name="nombre">
+        <label for="estado">Estado</label>
+        <select name="estado">
+            <option value=""></option>
+            <option value="toDo">Pendiente</option>
+            <option value="inProgress">En progreso</option>
+            <option value="done">Completada</option>
+        </select>
+        <label for="description">Descripcion</label>
+        <textarea name="description" rows="2"></textarea>
+        <button type="submit">Guardar</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Estado</th>
+                <th>Descripción</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+</html>
