@@ -6,14 +6,15 @@ function validateProduct(product){
     return true;
 }
 
+// Read
 fetch("http://localhost:3000/productos")
     .then(response => response.json())
     .then(data => console.log(data))
     .catch(error => console.error(error))
 
-const newProduct = { id: 4, nombre: "Tilin", precio: 1}
-
-fetch("http://localhost:3000/productos", {
+// Create
+const newProduct = { id: "4", nombre: "Tilin", precio: 1}
+fetch("http://localhost:3000/productos",{
     method: "Post",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify(newProduct)
@@ -22,8 +23,8 @@ fetch("http://localhost:3000/productos", {
     .then(data => console.log(data))
     .catch(error => console.error(error))
 
-const updatedProduct = {nombre: "Tilin", precio: 0}
-
+// Update
+const updatedProduct = {nombre: "Tilin", precio: 8}
 fetch("http://localhost:3000/productos/4", {
     method: "Put",
     headers: {"Content-Type": "application/json"},
@@ -33,6 +34,9 @@ fetch("http://localhost:3000/productos/4", {
     .then(data => console.log(data))
     .catch(error => console.error(error))
 
-fetch("http://localhost:3000/productos/1", {method: "DELETE"})
+// Delete
+fetch("http://localhost:3000/productos/4", {
+    method: "DELETE"
+})
     .then (() => console.log("deleted"))
     .catch (error => console.error(error))
