@@ -1,44 +1,19 @@
 {
   "productos": [
     {
-      "id": "2",
+      "nombre": "tomate",
+      "precio": 800,
+      "id": "1"
+    },
+    {
       "nombre": "guineo",
-      "precio": 500
+      "precio": 500,
+      "id": "2"
     },
     {
-      "id": "3",
       "nombre": "galleta",
-      "precio": 1200
-    },
-    {
-      "id": 4,
-      "nombre": "Tilin",
-      "precio": 1
-    },
-    {
-      "id": 4,
-      "nombre": "Tilin",
-      "precio": 1
-    },
-    {
-      "id": 4,
-      "nombre": "Tilin",
-      "precio": 1
-    },
-    {
-      "id": 4,
-      "nombre": "Tilin",
-      "precio": 1
-    },
-    {
-      "id": 4,
-      "nombre": "Tilin",
-      "precio": 1
-    },
-    {
-      "id": 4,
-      "nombre": "Tilin",
-      "precio": 1
+      "precio": 1200,
+      "id": "3"
     }
   ]
 }
